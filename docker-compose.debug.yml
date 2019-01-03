@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  jenkinsphp:
+    image: jenkinsphp
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
