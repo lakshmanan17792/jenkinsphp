@@ -1,0 +1,8 @@
+node {
+    def app{
+        stage'Clone repository'{
+            chekout scm
+        }
+        stage
+    }
+}
